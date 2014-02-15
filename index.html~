@@ -362,24 +362,39 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="upload.png">
-
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFjUlEQVR4Xu3XSUtcaxCH8XJKHFEUERcqTuBGnFFRwa/uHCckKiGCU5aituI8G+qFFuNCrJuy7+26z1nFpLpO6l8/33O6IJPJPAsXCXwwgQLAfDApylICgAGCKQHAmO\
+KiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJAMYUF8WAwYApAcCY4qIYMBgwJQAYU1wUAwYDpgQAY4qLYsBgwJQAYExxUQwYDJgSAIwpLooBgwFTAoAxxUUxYDBgSgAwprgoBgwGTAkAxhQXxYDBgCkBwJjiohgwGDAlABhTXBQDBgOmBABjiotiwGDAlABgTHFRDBgMmBIAjCkuigGDAVMCgDHFRTFgMGBKADCmuCgGDAZMCQDGFBfFgMGAKQHAmOKiGDAYM\
+CUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJ5D2Yvb09+fXrl4yMjEhpaekfw2cyGfnx44eUl5dLX1+fFBQUyPPzs2xubsrR0VH6ua2tTZqbmz8cWq7v9+H/WI4K8xbM6empKIjd3d0U1djYmJSVlb3EpjCmpqbk4eFBvnz5IuPj41JYWCjfv3+Xw8NDKSkpSf+mdd3d3dLQ0PBu5Lm+X472b75N3oKZnp6Wu7u7l4EVxOsTZnt7W/b399O/698rqMfHR9HPKZyJiYkE\
+TgHV1NRIV1eXrK+vS1FRkfT398vFxYX8/PlTvn79Kr29vTI7O+t6v8HBQfOy/gsfyFswejroI+Xbt29yfX2dTpAsGP15bm4uPWrOzs7k6uoqAbm/v0+LLy4uTj9nAenP+vm1tTU5OTmR2tpaubm5SZ/r7OyUlpaWdBp530/h5tuVt2CyQSsYPQ1eg1ldXU1QJicnZWlpSW5vb19OFEVRV1eX3mkUgZ44+sjSEygL6unpKbWvrq6WoaGhP3bqeT8FmG9XODD6rrGysiIVFRXS1NQkOzs7ogA6Ojqkvr4+nTz6mHn9iMqeMPobry+\
+1+hm9hoeHpaqq6l0wf3s/wOQ4gbe/8cfHx+nR8vZSDHoKZR9J+mc9mfQE0m9Ro6OjCdbMzEw6efRSYD09Pe+C+Zv7ccLkGIvebmFhQS4vL18eSbr07MuwIlleXk4A9LTQd5z5+fn0btLY2Cjn5+cJTXt7u7S2tsrGxoYcHBxIZWVlqtFeb79Bed7vX4jrr2+Z948kPSH0feXtt6TX7zgKRh9B+hutuBYXFxOG7HvKwMBAwqO4tEZfiBXO1tbWywuyfnvSy+t++fjCq/PnPZh/8iujWPQE0UtPk8++cn2/z5znfwnmMwON3hsw0T\
+fsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3\
+g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3u43z049tXeoahsAAAAASUVORK5CYII=">
           <h2>Upload.</h2>
           <p>Simply upload a picture and metadata of the missing child in our available form. </p>
 
           <p><a class="btn" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">View details »</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="face.jpeg">
-
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFjUlEQVR4Xu3XSUtcaxCH8XJKHFEUERcqTuBGnFFRwa/uHCckKiGCU5aituI8G+qFFuNCrJuy7+26z1nFpLpO6l8/33O6IJPJPAsXCXwwgQLAfDApylICgAGCKQHAmO\
+KiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJAMYUF8WAwYApAcCY4qIYMBgwJQAYU1wUAwYDpgQAY4qLYsBgwJQAYExxUQwYDJgSAIwpLooBgwFTAoAxxUUxYDBgSgAwprgoBgwGTAkAxhQXxYDBgCkBwJjiohgwGDAlABhTXBQDBgOmBABjiotiwGDAlABgTHFRDBgMmBIAjCkuigGDAVMCgDHFRTFgMGBKADCmuCgGDAZMCQDGFBfFgMGAKQHAmOKiGDAYM\
+CUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJ5D2Yvb09+fXrl4yMjEhpaekfw2cyGfnx44eUl5dLX1+fFBQUyPPzs2xubsrR0VH6ua2tTZqbmz8cWq7v9+H/WI4K8xbM6empKIjd3d0U1djYmJSVlb3EpjCmpqbk4eFBvnz5IuPj41JYWCjfv3+Xw8NDKSkpSf+mdd3d3dLQ0PBu5Lm+X472b75N3oKZnp6Wu7u7l4EVxOsTZnt7W/b399O/698rqMfHR9HPKZyJiYkE\
+TgHV1NRIV1eXrK+vS1FRkfT398vFxYX8/PlTvn79Kr29vTI7O+t6v8HBQfOy/gsfyFswejroI+Xbt29yfX2dTpAsGP15bm4uPWrOzs7k6uoqAbm/v0+LLy4uTj9nAenP+vm1tTU5OTmR2tpaubm5SZ/r7OyUlpaWdBp530/h5tuVt2CyQSsYPQ1eg1ldXU1QJicnZWlpSW5vb19OFEVRV1eX3mkUgZ44+sjSEygL6unpKbWvrq6WoaGhP3bqeT8FmG9XODD6rrGysiIVFRXS1NQkOzs7ogA6Ojqkvr4+nTz6mHn9iMqeMPobry+\
+1+hm9hoeHpaqq6l0wf3s/wOQ4gbe/8cfHx+nR8vZSDHoKZR9J+mc9mfQE0m9Ro6OjCdbMzEw6efRSYD09Pe+C+Zv7ccLkGIvebmFhQS4vL18eSbr07MuwIlleXk4A9LTQd5z5+fn0btLY2Cjn5+cJTXt7u7S2tsrGxoYcHBxIZWVlqtFeb79Bed7vX4jrr2+Z948kPSH0feXtt6TX7zgKRh9B+hutuBYXFxOG7HvKwMBAwqO4tEZfiBXO1tbWywuyfnvSy+t++fjCq/PnPZh/8iujWPQE0UtPk8++cn2/z5znfwnmMwON3hsw0T\
+fsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3\
+g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3u43z049tXeoahsAAAAASUVORK5CYII=">
           <h2>Match.</h2>
           <p>We compare the metadata and images against our database and use fuzzy matching and facial recognition technology to find the location of the missing child.</p>
 
           <p><a class="btn" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">View details »</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="contact.png">
-
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFjUlEQVR4Xu3XSUtcaxCH8XJKHFEUERcqTuBGnFFRwa/uHCckKiGCU5aituI8G+qFFuNCrJuy7+26z1nFpLpO6l8/33O6IJPJPAsXCXwwgQLAfDApylICgAGCKQHAmO\
+KiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJAMYUF8WAwYApAcCY4qIYMBgwJQAYU1wUAwYDpgQAY4qLYsBgwJQAYExxUQwYDJgSAIwpLooBgwFTAoAxxUUxYDBgSgAwprgoBgwGTAkAxhQXxYDBgCkBwJjiohgwGDAlABhTXBQDBgOmBABjiotiwGDAlABgTHFRDBgMmBIAjCkuigGDAVMCgDHFRTFgMGBKADCmuCgGDAZMCQDGFBfFgMGAKQHAmOKiGDAYM\
+CUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJ5D2Yvb09+fXrl4yMjEhpaekfw2cyGfnx44eUl5dLX1+fFBQUyPPzs2xubsrR0VH6ua2tTZqbmz8cWq7v9+H/WI4K8xbM6empKIjd3d0U1djYmJSVlb3EpjCmpqbk4eFBvnz5IuPj41JYWCjfv3+Xw8NDKSkpSf+mdd3d3dLQ0PBu5Lm+X472b75N3oKZnp6Wu7u7l4EVxOsTZnt7W/b399O/698rqMfHR9HPKZyJiYkE\
+TgHV1NRIV1eXrK+vS1FRkfT398vFxYX8/PlTvn79Kr29vTI7O+t6v8HBQfOy/gsfyFswejroI+Xbt29yfX2dTpAsGP15bm4uPWrOzs7k6uoqAbm/v0+LLy4uTj9nAenP+vm1tTU5OTmR2tpaubm5SZ/r7OyUlpaWdBp530/h5tuVt2CyQSsYPQ1eg1ldXU1QJicnZWlpSW5vb19OFEVRV1eX3mkUgZ44+sjSEygL6unpKbWvrq6WoaGhP3bqeT8FmG9XODD6rrGysiIVFRXS1NQkOzs7ogA6Ojqkvr4+nTz6mHn9iMqeMPobry+\
+1+hm9hoeHpaqq6l0wf3s/wOQ4gbe/8cfHx+nR8vZSDHoKZR9J+mc9mfQE0m9Ro6OjCdbMzEw6efRSYD09Pe+C+Zv7ccLkGIvebmFhQS4vL18eSbr07MuwIlleXk4A9LTQd5z5+fn0btLY2Cjn5+cJTXt7u7S2tsrGxoYcHBxIZWVlqtFeb79Bed7vX4jrr2+Z948kPSH0feXtt6TX7zgKRh9B+hutuBYXFxOG7HvKwMBAwqO4tEZfiBXO1tbWywuyfnvSy+t++fjCq/PnPZh/8iujWPQE0UtPk8++cn2/z5znfwnmMwON3hsw0T\
+fsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3\
+g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3u43z049tXeoahsAAAAASUVORK5CYII=">
           <h2>Contact.</h2>
           <p>We provide the contact information of the appropriate authorities in the case that our system helps find a missing child.</p>
 
