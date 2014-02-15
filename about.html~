@@ -319,90 +319,16 @@
 <br><br><br><br>
       <div class="page-header">    
 	
-	<h1>Comments to Post on X's profile</h1>
+	<h1>About Us</h1>
 </div>
       
-      
-<div id="post-94" class="row post-entry">
-  <div class='span1'>
-    <div class="post-userphoto">
-      <a href='/users/1/kuba' title='View users profile'>
-	<img  src="http://www.windsorultimate.com/files/user_kuba_bc88910ba4e3c242df4c90c4194b9ed0.jpg" height="52" width="52" title="Click to view user profile" alt="Click to view user profile" class="member-photo"></a>
-      </div>
-    </div>
-  <div class='span9'>
-    <div class='post-text'>
-
-
-     <div class="post-title">
-
-<h2>John Doe:</h2>
-
-<h2>You are amazing!!</h2>
-</div>
-  
-
-
-
-
-
-
-      </div>
-
-
-      <div>
-<span>
-<div class="btn-group">
-  <button type="button" class="btn btn-danger">Post</button>
-
-</div></span>
-
-   <div class='post-menu'>
-</div>
-
-
-
-      </div>
-    </div>
-  <div class="clear"></div>
-</div>
-<hr />
-
-<div id="post-93" class="row post-entry">
-  <div class='span1'>
-    <div class="post-userphoto">
-      <a href='/users/8/evil_dan' title='View users profile'>
-	<img  src="http://graph.facebook.com/857685042/picture?width=52&amp;height=52" height="52" width="52" title="Click to view user profile" alt="Click to view user profile" class="member-photo"></a>
-      </div>
-    </div>
+<h1>About the team:</h1>
+<h2>Mentors</h2>
+<p class="lead"> Anirudh Koul <br> Zahra Parnia Ashktorab </p>
+<h2>Students</h2>
+<p class="lead"> Siddha Ganju <br> Omar Abduljaleel <br> Ammar Mokhtar <br> Ahmed Nasser <br> Hosam Ershedat <br> Aziz Boussekine <br> Amna Mangoosh</p>
  
 
-
- <div class='span9'>
-    <div class='post-text'>
-      <div class="post-title">
-
-
-<h2>John Doe:</h2>
-<h2>You are amazing!!</h2>
-
-
-         </div>
-
-</div>
-
-<div class="btn-group">
-  <button type="button" class="btn btn-danger">Post</button>
-
-
-</div>
-
-
-
-
-
-
-      </div>
     </div>
 
   <div class="clear"></div>
