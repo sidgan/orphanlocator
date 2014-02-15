@@ -335,8 +335,8 @@ print "<li class='span3'>
             <div class='caption'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
               <p> Missing since:" . $yearmissing . "</p>
-	      <p> Match: " . $prob . "</p>
-              <p><a href='#' class='btn btn-danger'>Contact</a></p>
+	      <p> <font color='red'>Match: " . $prob . "</font></p>
+              <p><a href='#'> <button class='btn btn-danger' type=submit>Contact</a></p>
             </div>
           </div>
 </li>";
