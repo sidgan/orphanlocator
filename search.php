@@ -53,5 +53,26 @@ echo $height."\n";
 echo $location."\n";
 echo $additional_information."\n";
 
+
+$output=array();
+$output[0]["first_name"]="Anirudh";
+$output[0]["last_name"]="Koul";
+$output[0]["year_birth"]="1985";
+$output[0]["year_missing"]="1999";
+$output[0]["gender"]="m";
+$output[0]["height"]="";
+$output[0]["location"]="New Delhi, India";
+$output[0]["additional_information"]="Brown Eyes";
+$output[1]["first_name"]="Happy";
+$output[1]["last_name"]="Joe";
+$output[1]["year_birth"]="1993";
+$output[1]["year_missing"]="2001";
+$output[1]["gender"]="f";
+$output[1]["height"]="";
+$output[1]["location"]="abu dhabi";
+$output[1]["additional_information"]="";
+$json_output=json_encode($output);
+echo $json_output;
+
 ?>
 </pre>
