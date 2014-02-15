@@ -1,37 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
- <script src="js/jquery-1.10.2.js"></script>
-        <script src="js/jquery-ui-1.10.4.custom.js"></script>
-        <script>
-
-        $(function() {
-                $( "#datepicker,#datepicker2" ).datepicker({
-                        inline: true
-                });
-
-                // Hover states on the static widgets
-                $( "#dialog-link, #icons li" ).hover(
-                        function() {
-                                $( this ).addClass( "ui-state-hover" );
-                        },
-                        function() {
-                                $( this ).removeClass( "ui-state-hover" );
-                        }
-                );
-        });
-        </script>
-
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Orphan Locator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <style>
@@ -313,14 +290,11 @@
             <div class="nav-collapse collapse">
               <ul class="nav">
 
-                <li><a href="about.html">About Us</a></li>
-              
+                <li class="active"><a href="about.html">About Us</a></li>
+
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                
               </ul>
-
-
-
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
@@ -340,48 +314,28 @@
       
       
       
-<br><br><br><br>
 
       
-      <div class="page-header">
-
-<form class="form-signup2" method="post" action="formoutput.php">
-<br>
-
-        <h2 class="lead"><b>Enter information about missing child below:</b></h2>
-<table cellpadding="5">
-<tr>
-
-</td></tr><tr> <td>       <h4>First Name: </td><td><input type="text" name="first_name" class="span-2" placeholder="First name"></h4>
-</td></tr><tr><td>      <h4>Last Name:  </td><td><input type="text" name="last_name" class="span-2"  placeholder="Last name"></h4>
-</td></tr><tr><td>      <h4>Height: </td><td><input type="text" name="myusername" class="span-2" placeholder="Height"></h4>
-</td></tr><tr><td>      <h4>Gender: </td><td>
-
-<input type="radio" name="gender" value="Female"> Female   
-<input type="radio" name="gender" value="Male" checked> Male<br>
-</h4>
-</td></tr>
-
-<tr><td>      <h4>Upload Picture: </td><td><input type="file" id="picture" name="file" multiple accept='image/*'></h4>
-</td></tr>
-
-<tr><td>
-<h4> Birth Date </td><td><input type="text" name="year_birth" id="datepicker" />
-
-</h4></td></tr>
-<tr><td>
-<h4> Date Missing </td><td><input type="text" name="year_missing" id="datepicker2" /></h4></td></tr>
-</table>
-        <button class="btn btn-large btn-primary" Value="submit" id="submit" type="submit">Submit</button>
-      </form>
-
+<br><br><br><br>
+      <div class="page-header">    
+	
 </div>
+      
+
+<h2>Finder: John Bo.</h2>
+<p class="lead"> Contact 340-123-2340 or email bo_john@gmail.com</p>
+
+ 
+
+
+
+
+
+<hr />
  
 
       <!-- FOOTER -->
-      <footer>
 
-      </footer>
 
     </div><!-- /.container -->
 
@@ -412,6 +366,5 @@
       }(window.jQuery)
     </script>
     <script src="../assets/js/holder/holder.js"></script>
-
-</body>
+  </body>
 </html>
