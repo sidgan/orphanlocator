@@ -318,6 +318,7 @@ $count = 0;
 
 
      foreach ($json["Value"] as $match){
+
      $firstname =  $match["first_name"];
      $lastname = $match["last_name"];
      $birthyear = $match["year_birth"];
@@ -328,7 +329,7 @@ $count = 0;
      $info = $match["additional_information"];
      $url = $match["photo_url"];
      $prob = $match["match_probability"];
-
+print   "<form name='input' action='javascript:alert(\'Hello World\');' method='post'>";
 print "<li class='span3'>
  <div class='thumbnail'>
             <img src='" . $url . "' alt='' height='200' width='200'>
@@ -336,8 +337,9 @@ print "<li class='span3'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
               <p> Missing since:" . $yearmissing . "</p>
 	      <p> <font color='red'>Match: " . $prob . "</font></p>
-              <p><a href='#'> <button class='btn btn-danger' type=submit>Contact</a></p>
-            </div>
+              <p> <button class='btn btn-danger' type=submit>Contact</p>
+</form>           
+ </div>
           </div>
 </li>";
 
