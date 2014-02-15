@@ -66,6 +66,8 @@ $output[1]["location"]="abu dhabi";
 $output[1]["additional_information"]="";
 $output[1]["photo_url"]="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/3/000/2a1/0c6/2a46767.jpg";
 $output[1]["match_probability"]="0.5";
-$json_output=json_encode($output);
+$bigOutput["ServiceName"]="OrphanLocator";
+$bigOutput["Value"]=$output;
+$json_output=json_encode($bigOutput);
 echo $json_output;
 ?>
