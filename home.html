@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Carousel Template &middot; Bootstrap</title>
+    <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -285,16 +285,23 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">iAnon</a>
+            <a class="brand" href="#">Orphan Locator</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
           <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+		<li><a href="points.php">My Children</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                
               </ul>
+
+<form method="post" action="logout.php" class="navbar-form pull-right">
+                           <button type="submit" class="btn">Log out</button>
+            </form>
+
+
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
@@ -318,93 +325,19 @@
 
       
       <div class="page-header">
-	
-	<h1>Users At Risk</h1>
-	</div>
-      
-      
-<div id="post-94" class="row post-entry">
-  <div class='span1'>
-    <div class="post-userphoto">
-      <a href='/users/1/kuba' title='View users profile'>
-	<img  src="http://www.windsorultimate.com/files/user_kuba_bc88910ba4e3c242df4c90c4194b9ed0.jpg" height="52" width="52" title="Click to view user profile" alt="Click to view user profile" class="member-photo"></a>
-      </div>
-    </div>
-  <div class='span9'>
-    <div class='post-text'>
 
-
-     <div class="post-title">
-
-
-<h2>John Doe:</h2></div>
-      At risk : <h2>43%</h2>
-Negative Comments: <h2>23</h2>
-Example Comment: <h2>"You suck"</h2>
-
-
-
-
-
-
-      </div>
-
-
-      <div>
 <span>
-<div class="btn-group">
-  <button type="button" class="btn btn-danger">Comment</button>
-
-</div></span>
-
-   <div class='post-menu'>
-</div>
-
-
-
-      </div>
-    </div>
-  <div class="clear"></div>
-</div>
-<hr />
-
-<div id="post-93" class="row post-entry">
-  <div class='span1'>
-    <div class="post-userphoto">
-      <a href='/users/8/evil_dan' title='View users profile'>
-	<img  src="http://graph.facebook.com/857685042/picture?width=52&amp;height=52" height="52" width="52" title="Click to view user profile" alt="Click to view user profile" class="member-photo"></a>
-      </div>
-    </div>
- 
-
-
- <div class='span9'>
-    <div class='post-text'>
-      <div class="post-title">
-
-
-<h2>John Doe:</h2></div>
-      At risk : <h2>43%</h2>
-Negative Comments: <h2>23</h2>
-Example Comment: <h2>"You suck"</h2>
-
-
-         </div>
-
-
 
 <div class="btn-group">
-  <button type="button" class="btn btn-danger">Comment</button>
+<form name = 'form_new_child' action='new_child.php' method='post'>
+
+  <button type="submit" class="btn btn-success">Add New Child</button>
+</form>
+</div></span>	
 
 
-</div>
 
 
-
-
-
-
-      </div>
     </div>
 
   <div class="clear"></div>
