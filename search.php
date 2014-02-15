@@ -1,16 +1,16 @@
 <?php 
-  $first_name="";
- $last_name="";
- $year_birth="";
- $year_missing="";
- $gender="";
- $height="";
- $location="";
- $additional_information="";
+$first_name="";
+$last_name="";
+$year_birth="";
+$year_missing="";
+$gender="";
+$height="";
+$location="";
+$additional_information="";
  
-  if(isset($_REQUEST['first_name']))
-  {
-    $first_name= trim($_REQUEST['first_name']);
+if(isset($_REQUEST['first_name']))
+{
+  $first_name= trim($_REQUEST['first_name']);
    
  }
  if(isset($_REQUEST['last_name']))
@@ -40,17 +40,16 @@ if(isset($_REQUEST['location']))
 if(isset($_REQUEST['additional_information']))
 {
   $additional_information= trim($_REQUEST['additional_information']);
-  }
+}
   
-  
-echo   $first_name;
 
-echo $first_name;
-echo $last_name;
-echo $year_birth;
-echo $year_missing;
-echo $gender;
-echo $height;
-echo $location;
-echo $additional_information;
-  ?>
+echo $first_name."\n";
+echo $last_name."\n";
+echo $year_birth."\n";
+echo $year_missing."\n";
+echo $gender."\n";
+echo $height."\n";
+echo $location."\n";
+echo $additional_information."\n";
+
+?>
