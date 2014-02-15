@@ -2,8 +2,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+function validate(){
+$("#submit").click(function(){
+        $(".error").hide();
+        var hasError = false;
+        var passwordVal = $("#mypassword").val();
+        var checkVal = $("#reenter").val();
+        if (passwordVal == '') {
+            $("#mypassword").after('<span class="error">Please enter a password.</span>');
+            hasError = true;
+        } else if (checkVal == '') {
+            $("#reenter").after('<span class="error">Please re-enter your password.</span>');
+            hasError = true;
+        } else if (passwordVal != checkVal ) {
+            $("#reenter").after('<span class="error">Passwords do not match.</span>');
+            hasError = true;
+        }
+        if(hasError == true) {return false;}
+    });
+});
+</script>
+
     <meta charset="utf-8">
-    <title>Lost Child Locator</title>
+    <title>Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -106,9 +128,9 @@
     .carousel-caption {
       background-color: transparent;
       position: static;
-      max-width: 550px;
+
       padding: 0 20px;
-      margin-top: 150px;
+      margin-top: 100px;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -265,6 +287,17 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+
+
   </head>
 
   <body>
@@ -285,7 +318,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Lost Child Locator</a>
+            <a class="brand" href="#">iAnon</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
@@ -309,36 +342,36 @@
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="syria2.jpg" alt="">
+          <img src="bully_c.jpeg" alt="">
           <div class="container">
+
  <div class="carousel-caption">
-
-              <h1>Lost Child Locator</h1>
-              <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p>
-
-<form class="form-signin" method="post" action="checklogin.php">
+<center>
+<form class="form-signup2" method="post" action="insert.php" onsubmit="validate()">
 <br>
-        <h2 class="lead"><b>Sign in below:</b></h2>
-        <input type="text" name="myusername" class="input-block-level" placeholder="Username">
-        <input type="password" name ="mypassword" class="input-block-level" placeholder="Password">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> <font color="black">Remember me</font>
-        </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+
+        <h2 class="lead"><b>Enter your information below:</b></h2>
+<table cellpadding="5">
+<tr><td><h4>Email: </td><td><input type="text" name="myemail" class="span-2" placeholder="Email"></h4>
+</td></tr><tr> <td>       <h4>First Name: </td><td><input type="text" name="myfirstname" class="span-2" placeholder="First name"></h4>
+</td></tr><tr><td>	<h4>Last Name:  </td><td><input type="text" name="mylastname" class="span-2"  placeholder="Last name"></h4>
+</td></tr><tr><td>	<h4>User name: </td><td><input type="text" name="myusername" class="span-2" placeholder="Username"></h4>
+</td></tr><tr><td>	<h4>Password: </td><td><input type="password" id="mypassword" name="mypassword" class="span-2"  placeholder="Password"></h4>
+</td></tr><tr><td>      <h4>Re-enter Password: </td><td><input type="password" id="reenter" name="reenter" class="span-2"  placeholder="Password"></h4>
+</td></tr>
+
+
+<tr><td>
+<h4> Birthday </td><td><input type="text" name="mybd" id="datepicker" /></h4></td></tr>
+</table>
+        <button class="btn btn-large btn-primary" Value="submit" id="submit" type="submit">Submit</button>
       </form>
-
-<p class="lead">Not a member?</p>
-<form class="form-signup" method="post" action="signup.php">
-
-
-        <button class="btn btn-large btn-success" type="submit">Sign up here!</button>
-      </form>
-
+</center>
 </div>
           </div>
         </div>
         <div class="item">
-          <img src="syria1.jpg" alt="">
+          <img src="bullying3.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>

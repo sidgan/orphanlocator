@@ -1,14 +1,46 @@
+<?php
+session_start();
+if(!session_is_registered(myusername)){
+header("location:index.html");
+}
+$name = $_SESSION["myfirstname"];
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/jquery-ui-1.10.4.custom.js"></script>
+        <script>
+
+        $(function() {
+                $( "#datepicker,#datepicker2" ).datepicker({
+                        inline: true
+                });
+
+                // Hover states on the static widgets
+                $( "#dialog-link, #icons li" ).hover(
+                        function() {
+                                $( this ).addClass( "ui-state-hover" );
+                        },
+                        function() {
+                                $( this ).removeClass( "ui-state-hover" );
+                        }
+                );
+        });
+        </script>
+
+
+<head>
     <meta charset="utf-8">
-    <title>Lost Child Locator</title>
+    <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <link href="css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <style>
@@ -93,14 +125,14 @@
     }
 
     .carousel .item {
-      height: 600px;
+      height: 500px;
     }
     .carousel img {
       position: absolute;
       top: 0;
       left: 0;
       min-width: 100%;
-      height:600px;
+      height: 500px;
     }
 
     .carousel-caption {
@@ -108,7 +140,7 @@
       position: static;
       max-width: 550px;
       padding: 0 20px;
-      margin-top: 150px;
+      margin-top: 200px;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -285,16 +317,23 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Lost Child Locator</a>
+            <a class="brand" href="#">Orphan Locator</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+		<li><a href="points.php">My Children</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                
               </ul>
+
+<form method="post" action="logout.php" class="navbar-form pull-right">
+                           <button type="submit" class="btn">Log out</button>
+            </form>
+
+
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
@@ -304,72 +343,52 @@
 
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="syria2.jpg" alt="">
-          <div class="container">
- <div class="carousel-caption">
 
-              <h1>Lost Child Locator</h1>
-              <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p>
 
-<form class="form-signin" method="post" action="checklogin.php">
+
+<div class="container" id="content">
+
+    
+
+      
+      
+      
+<br><br><br><br>
+
+      
+      <div class="page-header">
+
+<form class="form-signup2" method="post" action="insert.php">
 <br>
-        <h2 class="lead"><b>Sign in below:</b></h2>
-        <input type="text" name="myusername" class="input-block-level" placeholder="Username">
-        <input type="password" name ="mypassword" class="input-block-level" placeholder="Password">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> <font color="black">Remember me</font>
-        </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-      </form>
 
-<p class="lead">Not a member?</p>
-<form class="form-signup" method="post" action="signup.php">
+        <h2 class="lead"><b>Enter information about missing child below:</b></h2>
+<table cellpadding="5">
+<tr>
+
+</td></tr><tr> <td>       <h4>First Name: </td><td><input type="text" name="first_name" class="span-2" placeholder="First name"></h4>
+</td></tr><tr><td>      <h4>Last Name:  </td><td><input type="text" name="last_name" class="span-2"  placeholder="Last name"></h4>
+</td></tr><tr><td>      <h4>Height: </td><td><input type="text" name="myusername" class="span-2" placeholder="Username"></h4>
+</td></tr><tr><td>      <h4>Gender: </td><td><input type="password" id="mypassword" name="mypassword" class="span-2"  placeholder="gender"></h4>
+</td></tr>
+
+<tr><td>      <h4>Upload Picture: </td><td><input type="file" id="picture" name="file"></h4>
+</td></tr>
 
 
-        <button class="btn btn-large btn-success" type="submit">Sign up here!</button>
+
+
+<tr><td>
+<h4> Birth Date </td><td><input type="text" name="year_birth" id="datepicker" />
+
+</h4></td></tr>
+<tr><td>
+<h4> Date Missing </td><td><input type="text" name="year_missing" id="datepicker2" /></h4></td></tr>
+</table>
+        <button class="btn btn-large btn-primary" Value="submit" id="submit" type="submit">Submit</button>
       </form>
 
 </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="syria1.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://getbootstrap.com/2.3.2/assets/img/examples/slide-03.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
-
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-</div>
+ 
 
       <!-- FOOTER -->
       <footer>
@@ -406,5 +425,6 @@
       }(window.jQuery)
     </script>
     <script src="../assets/js/holder/holder.js"></script>
-  </body>
+
+</body>
 </html>

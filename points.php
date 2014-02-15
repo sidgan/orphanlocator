@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Lost Child Locator</title>
+    <title>Carousel Template &middot; Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -93,14 +93,14 @@
     }
 
     .carousel .item {
-      height: 600px;
+      height: 500px;
     }
     .carousel img {
       position: absolute;
       top: 0;
       left: 0;
       min-width: 100%;
-      height:600px;
+      height: 500px;
     }
 
     .carousel-caption {
@@ -108,7 +108,7 @@
       position: static;
       max-width: 550px;
       padding: 0 20px;
-      margin-top: 150px;
+      margin-top: 200px;
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -285,13 +285,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Lost Child Locator</a>
+            <a class="brand" href="#">iAnon</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+		<li class="active"><a href="points.php">My Points</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                
               </ul>
@@ -304,72 +305,49 @@
 
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="syria2.jpg" alt="">
-          <div class="container">
- <div class="carousel-caption">
-
-              <h1>Lost Child Locator</h1>
-              <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p>
-
-<form class="form-signin" method="post" action="checklogin.php">
-<br>
-        <h2 class="lead"><b>Sign in below:</b></h2>
-        <input type="text" name="myusername" class="input-block-level" placeholder="Username">
-        <input type="password" name ="mypassword" class="input-block-level" placeholder="Password">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> <font color="black">Remember me</font>
-        </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-      </form>
-
-<p class="lead">Not a member?</p>
-<form class="form-signup" method="post" action="signup.php">
 
 
-        <button class="btn btn-large btn-success" type="submit">Sign up here!</button>
-      </form>
 
+<div class="container" id="content">
+
+    
+
+      
+      
+      
+
+      
+<br><br><br><br>
+      <div class="page-header">    
+	
+	<h1>Zahra's Points: <b>50</b></h1>
 </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="syria1.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://getbootstrap.com/2.3.2/assets/img/examples/slide-03.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
+      <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Victim Breakdown</div>
 
+  <!-- Table -->
+  <table class="table">
+   <tr><th>Victim Number</th><th>Number of comments you left</th><th>Cyberbullying decreased after comment?</th><th>Do something!</th></tr>
+<tr><td>Victim 1</td><td>1</td><td>Yes</td><td><button type="button" class="btn btn-danger">Comment Again</button></td></tr>
+<tr><td>Victim 2</td><td>2</td><td>Yes</td><td><button type="button" class="btn btn-danger">Comment Again</button></td></tr>
+<tr><td>Victim 3</td><td>1</td><td>Yes</td><td><button type="button" class="btn btn-danger">Comment Again</button></td></tr>
+<tr><td>Victim 4</td><td>1</td><td><b>No</b></td><td><button type="button" class="btn btn-danger">Comment Again</button></td></tr>
+<tr><td>Victim 5</td><td>1</td><td>Yes</td><td><button type="button" class="btn btn-danger">Comment Again</button></td></tr>
 
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
+  </table>
 </div>
+        
+
+
+
+
+    </div>
+
+  <div class="clear"></div>
+
+<hr />
+ 
 
       <!-- FOOTER -->
       <footer>
