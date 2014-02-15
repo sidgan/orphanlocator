@@ -333,7 +333,7 @@ print "<html lang='en'>
 
 
 
-<div class="container" id="content">
+print "<div class='container' id='content'>
 
 
 
@@ -343,7 +343,7 @@ print "<html lang='en'>
 <br><br><br><br>
 
 
-      <div class="page-header">
+      <div class='page-header'>";
 
 
     $data = file_get_contents ('test.json');
@@ -372,9 +372,9 @@ $count = 0;
    
 print "<li class='span3'>
  <div class='thumbnail'>
-            <img src='" . $url . "' alt="">
+            <img src='" . $url . "' alt=''>
             <div class='caption'>
-              <h5>" . $firstname . " " $lastname .  "</h5>
+              <h5>" . $firstname . " " . $lastname .  "</h5>
               <p> Missing since:" . $yearmissing . "</p>
               <p><a href='#' class='btn primary'>Contact</a></p>
             </div>
@@ -388,13 +388,12 @@ $count = $count +1
 
 }
 
-print "</center>"
-?>
+print "</center>";
 
 
 
-print"
-      <footer>
+
+print "<footer>
 
       </footer>
 
