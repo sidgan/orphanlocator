@@ -337,7 +337,7 @@ print "<li class='span3'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
               <p> Missing since: " . $yearmissing . "</p>
 	      <p> <font color='red'>Match: " . $prob . "</font></p>
-              <p> <button class='btn btn-danger' type='submit'>Contact</p>
+              <p> <a href='contact.html'><button class='btn btn-danger' type='submit'>Contact</a></p>
           
  </div>
           </div>

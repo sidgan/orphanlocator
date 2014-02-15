@@ -1,39 +1,16 @@
-<?php
 
-print "<html lang='en'>
- <script src='js/jquery-1.10.2.js'></script>
-        <script src='js/jquery-ui-1.10.4.custom.js;></script>
-        <script>
-
-        $(function() {
-                $( '#datepicker,#datepicker2' ).datepicker({
-                        inline: true
-                });
-
-                // Hover states on the static widgets
-                $( '#dialog-link, #icons li' ).hover(
-                        function() {
-                                $( this ).addClass( 'ui-state-hover' );
-                        },
-                        function() {
-                                $( this ).removeClass( 'ui-state-hover' );
-                        }
-                );
-        });
-        </script>
-
-
-<head>
-    <meta charset='utf-8'>
-    <title>Home</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='description' content=''>
-    <meta name='author' content=''>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href='css/ui-lightness/jquery-ui-1.10.4.custom.css' rel='stylesheet'>
-    <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
-    <link href='bootstrap/css/bootstrap-responsive.css' rel='stylesheet'>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <style>
 
     /* GLOBAL STYLES
@@ -279,15 +256,15 @@ print "<html lang='en'>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src='bootstrap/js/html5shiv.js'></script>
+      <script src="bootstrap/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel='apple-touch-icon-precomposed' sizes='144x144' href='../assets/ico/apple-touch-icon-144-precomposed.png'>
-    <link rel='apple-touch-icon-precomposed' sizes='114x114' href='../assets/ico/apple-touch-icon-114-precomposed.png'>
-      <link rel='apple-touch-icon-precomposed' sizes='72x72' href='../assets/ico/apple-touch-icon-72-precomposed.png'>
-                    <link rel='apple-touch-icon-precomposed' href='../assets/ico/apple-touch-icon-57-precomposed.png'>
-                                   <link rel='shortcut icon' href='../assets/ico/favicon.png'>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
   <body>
@@ -296,106 +273,73 @@ print "<html lang='en'>
 
     <!-- NAVBAR
     ================================================== -->
-    <div class='navbar-wrapper'>
+    <div class="navbar-wrapper">
       <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
       <div class="container">
 
-        <div class='navbar navbar-inverse'>
-          <div class='navbar-inner'>
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type='button' class='btn btn-navbar' data-toggle='collapse' data-target='.nav-collapse'>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
-            <a class='brand' href='index.html'>Orphan Locator</a>
+            <a class="brand" href="#">iAnon</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class='nav-collapse collapse'>
-              <ul class='nav'>
-          <li class='active'><a href='index.html'>Home</a></li>
-                <li><a href='about.html'>About Us</a></li>
-              
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                
               </ul>
-
-<form method='post' action='logout.php' class='navbar-form pull-right'>
-                           <button type='submit' class='btn'>Log out</button>
-            </form>
-
-
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
 
       </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->";
+    </div><!-- /.navbar-wrapper -->
+
+
+
 
 
 
 <div class="container" id="content">
 
+    
 
+      
+      
+      
 
-
-
-
+      
 <br><br><br><br>
+      <div class="page-header">    
+	
+	<h1>About Us</h1>
+</div>
+      
+<h1>About the team:</h1>
+<h2>Mentors</h2>
+<p class="lead"> Anirudh Koul <br> Zahra Parnia Ashktorab </p>
+<h2>Students</h2>
+<p class="lead"> Siddha Ganju <br> Omar Abduljaleel <br> Ammar Mokhtar <br> Ahmed Nasser <br> Hosam Ershedat <br> Aziz Boussekine <br> Amna Mangoosh</p>
+ 
 
+    </div>
 
-      <div class="page-header">
+  <div class="clear"></div>
 
+<hr />
+ 
 
-    $data = file_get_contents ('test.json');
-    $json = json_decode($data, true);
-
-    echo ('<pre>');
-    print_r ($json);
-    echo ('</pre>');
-
-    echo ('<br>output:</br>');
-$count = 0;
-<center>
-     foreach ($json["Value"] as $match){
-
-  $firstname =  $match["first_name"];
-     $lastname = $match["last_name"];
-     $birthyear = $match["year_birth"];
-     $yearmissing = $match["year_missing"]
-     $gender = $match["gender"];
-     $height = $match["height"];
-     $location = $match["location"];
-     $info = $match["additional_information"];
-     $url = $match["photo_url"];
-     $prob = $match["match_probability"];
-
-   
-print "<li class='span3'>
- <div class='thumbnail'>
-            <img src='" . $url . "' alt="">
-            <div class='caption'>
-              <h5>" . $firstname . " " $lastname .  "</h5>
-              <p> Missing since:" . $yearmissing . "</p>
-              <p><a href='#' class='btn primary'>Contact</a></p>
-            </div>
-          </div>
-</li>";
-
-if (count % 3 == 0){
-print "<br>";
-}
-$count = $count +1
-
-}
-
-print "</center>"
-?>
-
-
-
-print"
+      <!-- FOOTER -->
       <footer>
 
+        <p>&copy; 2013 University of Maryland, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -405,19 +349,19 @@ print"
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src='bootstrap/js/jquery.js'></script>
-    <script src='bootstrap/js/bootstrap-transition.js'></script>
-    <script src='bootstrap/js/bootstrap-alert.js'></script>
-    <script src='bootstra[/js/bootstrap-modal.js></script>
-    <script src='bootstrap/js/bootstrap-dropdown.js'></script>
-    <script src='bootstrap/js/bootstrap-scrollspy.js'></script>
-    <script src='bootstrap/js/bootstrap-tab.js'></script>
-    <script src='bootstrap/js/bootstrap-tooltip.js'></script>
-    <script src='bootstrap/js/bootstrap-popover.js'></script>
-    <script src='bootstrap/js/bootstrap-button.js'></script>
-    <script src='bootstrap/js/bootstrap-collapse.js'></script>
-    <script src='bootstrap/js/bootstrap-carousel.js'></script>
-    <script src='bootstrap/js/bootstrap-typeahead.js'></script>
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap-transition.js"></script>
+    <script src="bootstrap/js/bootstrap-alert.js"></script>
+    <script src="bootstra[/js/bootstrap-modal.js"></script>
+    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/js/bootstrap-tab.js"></script>
+    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/js/bootstrap-popover.js"></script>
+    <script src="bootstrap/js/bootstrap-button.js"></script>
+    <script src="bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
     <script>
       !function ($) {
         $(function(){
@@ -426,9 +370,6 @@ print"
         })
       }(window.jQuery)
     </script>
-    <script src='../assets/js/holder/holder.js'></script>
-
-</body>
-</html>";
-
-?>
+    <script src="../assets/js/holder/holder.js"></script>
+  </body>
+</html>

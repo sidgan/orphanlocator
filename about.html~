@@ -1,37 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
- <script src="js/jquery-1.10.2.js"></script>
-        <script src="js/jquery-ui-1.10.4.custom.js"></script>
-        <script>
-
-        $(function() {
-                $( "#datepicker,#datepicker2" ).datepicker({
-                        inline: true
-                });
-
-                // Hover states on the static widgets
-                $( "#dialog-link, #icons li" ).hover(
-                        function() {
-                                $( this ).addClass( "ui-state-hover" );
-                        },
-                        function() {
-                                $( this ).removeClass( "ui-state-hover" );
-                        }
-                );
-        });
-        </script>
-
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Carousel Template &middot; Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <style>
@@ -308,22 +285,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="index.html">Orphan Locator</a>
+            <a class="brand" href="#">iAnon</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-          <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-              
+          <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                
               </ul>
-
-<form method="post" action="logout.php" class="navbar-form pull-right">
-                           <button type="submit" class="btn">Log out</button>
-            </form>
-
-
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
@@ -343,38 +314,106 @@
       
       
       
-<br><br><br><br>
 
       
-      <div class="page-header">
-<li class="span3">
- <div class="thumbnail">
-            <img src="http://placehold.it/210x150" alt="">
-            <div class="caption">
-              <h5>Thumbnail label</h5>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a href="#" class="btn primary">Action</a> <a href="#" class="btn">Action</a></p>
-            </div>
-          </div>
-</li>
-
-<li class="span3">
- <div class="thumbnail">
-            <img src="http://placehold.it/210x150" alt="">
-            <div class="caption">
-              <h5>Thumbnail label</h5>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elt.</p>
-              <p><a href="#" class="btn primary">Action</a> <a href="#" class="btn">Action</a></p>
-            </div>
-          </div>
-</li>
+<br><br><br><br>
+      <div class="page-header">    
+	
+	<h1>Comments to Post on X's profile</h1>
+</div>
+      
+      
+<div id="post-94" class="row post-entry">
+  <div class='span1'>
+    <div class="post-userphoto">
+      <a href='/users/1/kuba' title='View users profile'>
+	<img  src="http://www.windsorultimate.com/files/user_kuba_bc88910ba4e3c242df4c90c4194b9ed0.jpg" height="52" width="52" title="Click to view user profile" alt="Click to view user profile" class="member-photo"></a>
+      </div>
+    </div>
+  <div class='span9'>
+    <div class='post-text'>
 
 
+     <div class="post-title">
+
+<h2>John Doe:</h2>
+
+<h2>You are amazing!!</h2>
+</div>
+  
+
+
+
+
+
+
+      </div>
+
+
+      <div>
+<span>
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Post</button>
+
+</div></span>
+
+   <div class='post-menu'>
+</div>
+
+
+
+      </div>
+    </div>
+  <div class="clear"></div>
+</div>
+<hr />
+
+<div id="post-93" class="row post-entry">
+  <div class='span1'>
+    <div class="post-userphoto">
+      <a href='/users/8/evil_dan' title='View users profile'>
+	<img  src="http://graph.facebook.com/857685042/picture?width=52&amp;height=52" height="52" width="52" title="Click to view user profile" alt="Click to view user profile" class="member-photo"></a>
+      </div>
+    </div>
+ 
+
+
+ <div class='span9'>
+    <div class='post-text'>
+      <div class="post-title">
+
+
+<h2>John Doe:</h2>
+<h2>You are amazing!!</h2>
+
+
+         </div>
+
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Post</button>
+
+
+</div>
+
+
+
+
+
+
+      </div>
+    </div>
+
+  <div class="clear"></div>
+
+<hr />
  
 
       <!-- FOOTER -->
       <footer>
 
+        <p>&copy; 2013 University of Maryland, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -406,6 +445,5 @@
       }(window.jQuery)
     </script>
     <script src="../assets/js/holder/holder.js"></script>
-
-</body>
+  </body>
 </html>

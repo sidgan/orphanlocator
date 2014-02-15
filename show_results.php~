@@ -329,7 +329,7 @@ $count = 0;
      $info = $match["additional_information"];
      $url = $match["photo_url"];
      $prob = $match["match_probability"];
-print   "<form action='javascript:alert(\'Hello World\');'>";
+//print   "<form action='javascript:alert(\'Hello World\');'>";
 print "<li class='span3'>
  <div class='thumbnail'>
             <img src='" . $url . "' alt='' height='200' width='200'>
@@ -341,7 +341,8 @@ print "<li class='span3'>
           
  </div>
           </div>
-</li></form>";
+</li>";
+//</form>";
 
 
 }
