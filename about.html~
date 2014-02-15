@@ -370,37 +370,6 @@
 </li>
 
 
-<form class="form-signup2" method="post" action="formoutput.php">
-<br>
-
-        <h2 class="lead"><b>Enter information about missing child below:</b></h2>
-<table cellpadding="5">
-<tr>
-
-</td></tr><tr> <td>       <h4>First Name: </td><td><input type="text" name="first_name" class="span-2" placeholder="First name"></h4>
-</td></tr><tr><td>      <h4>Last Name:  </td><td><input type="text" name="last_name" class="span-2"  placeholder="Last name"></h4>
-</td></tr><tr><td>      <h4>Height: </td><td><input type="text" name="myusername" class="span-2" placeholder="Height"></h4>
-</td></tr><tr><td>      <h4>Gender: </td><td>
-
-<input type="radio" name="gender" value="Female"> Female   
-<input type="radio" name="gender" value="Male" checked> Male<br>
-</h4>
-</td></tr>
-
-<tr><td>      <h4>Upload Picture: </td><td><input type="file" id="picture" name="file" multiple accept='image/*'></h4>
-</td></tr>
-
-<tr><td>
-<h4> Birth Date </td><td><input type="text" name="year_birth" id="datepicker" />
-
-</h4></td></tr>
-<tr><td>
-<h4> Date Missing </td><td><input type="text" name="year_missing" id="datepicker2" /></h4></td></tr>
-</table>
-        <button class="btn btn-large btn-primary" Value="submit" id="submit" type="submit">Submit</button>
-      </form>
-
-</div>
  
 
       <!-- FOOTER -->
