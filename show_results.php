@@ -336,7 +336,7 @@ print "<li class='span3'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
               <p> Missing since:" . $yearmissing . "</p>
 	      <p> Match: " . $prob . "</p>
-              <p><a href='#' class='btn danger'>Contact</a></p>
+              <p><a href='#' class='btn btn-danger'>Contact</a></p>
             </div>
           </div>
 </li>";
