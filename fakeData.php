@@ -1,4 +1,6 @@
-e<?php 
+<?php
+header('Content-Type: application/json ; charset=utf-8');
+
 $first_name="";
 $last_name="";
 $year_birth="";
