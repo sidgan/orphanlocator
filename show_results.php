@@ -298,7 +298,7 @@ print "<html lang='en'>
     ================================================== -->
     <div class='navbar-wrapper'>
       <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
+      <div class='container'>
 
         <div class='navbar navbar-inverse'>
           <div class='navbar-inner'>
@@ -355,13 +355,13 @@ print "<div class='container' id='content'>
 
     echo ('<br>output:</br>');
 $count = 0;
-<center>
+print "<center>";
      foreach ($json["Value"] as $match){
 
   $firstname =  $match["first_name"];
      $lastname = $match["last_name"];
      $birthyear = $match["year_birth"];
-     $yearmissing = $match["year_missing"]
+     $yearmissing = $match["year_missing"];
      $gender = $match["gender"];
      $height = $match["height"];
      $location = $match["location"];
@@ -384,7 +384,7 @@ print "<li class='span3'>
 if (count % 3 == 0){
 print "<br>";
 }
-$count = $count +1
+$count = $count +1;
 
 }
 
