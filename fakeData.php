@@ -1,5 +1,4 @@
-<pre>
-<?php 
+e<?php 
 $first_name="";
 $last_name="";
 $year_birth="";
@@ -44,16 +43,6 @@ if(isset($_REQUEST['additional_information']))
 }
   
 
-echo $first_name."\n";
-echo $last_name."\n";
-echo $year_birth."\n";
-echo $year_missing."\n";
-echo $gender."\n";
-echo $height."\n";
-echo $location."\n";
-echo $additional_information."\n";
-
-
 $output=array();
 $output[0]["first_name"]="Anirudh";
 $output[0]["last_name"]="Koul";
@@ -63,6 +52,7 @@ $output[0]["gender"]="m";
 $output[0]["height"]="";
 $output[0]["location"]="New Delhi, India";
 $output[0]["additional_information"]="Brown Eyes";
+$output[0]["match_probability"]="0.8";
 $output[1]["first_name"]="Happy";
 $output[1]["last_name"]="Joe";
 $output[1]["year_birth"]="1993";
@@ -71,8 +61,7 @@ $output[1]["gender"]="f";
 $output[1]["height"]="";
 $output[1]["location"]="abu dhabi";
 $output[1]["additional_information"]="";
+$output[0]["match_probability"]="0.5";
 $json_output=json_encode($output);
 echo $json_output;
-
 ?>
-</pre>
