@@ -335,9 +335,9 @@ print "<li class='span3'>
             <img src='" . $url . "' alt='' height='200' width='200'>
             <div class='caption'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
-              <p> Missing since:" . $yearmissing . "</p>
+              <p> Missing since: " . $yearmissing . "</p>
 	      <p> <font color='red'>Match: " . $prob . "</font></p>
-              <p> <input type='button' class='btn btn-danger' type='submit'>Contact</p>
+              <p> <button class='btn btn-danger' type='submit'>Contact</p>
           
  </div>
           </div>
