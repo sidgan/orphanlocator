@@ -1,4 +1,4 @@
-FirstName	LastName	YearBirth	YearMissing	Gender	Height	Location 	ImageName
-bob	cloey	1990	2001	m	178	agra	1.jpg
-joe	dylan	1890	1991	m	123	delhi	2.jpg
-frog	man	2000	2013	f	145	san 	3.jpg
+FirstName	LastName	YearBirth	YearMissing	Gender	Height	Location 	ImageName AdditionalInformation
+bob	cloey	1990	2001	m	178	agra	1.jpg Blue Eyes
+joe	dylan	1890	1991	m	123	delhi	2.jpg Blonde
+frog	man	2000	2013	f	145	san 	3.jpg Green Eyes
