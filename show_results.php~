@@ -329,7 +329,7 @@ $count = 0;
      $info = $match["additional_information"];
      $url = $match["photo_url"];
      $prob = $match["match_probability"];
-print   "<form name='input' action='javascript:alert(\'Hello World\');' method='post'>";
+print   "<form name='input' action='javascript:alert(Hello World);'>";
 print "<li class='span3'>
  <div class='thumbnail'>
             <img src='" . $url . "' alt='' height='200' width='200'>
@@ -338,10 +338,10 @@ print "<li class='span3'>
               <p> Missing since:" . $yearmissing . "</p>
 	      <p> <font color='red'>Match: " . $prob . "</font></p>
               <p> <button class='btn btn-danger' type=submit>Contact</p>
-</form>           
+          
  </div>
           </div>
-</li>";
+</li></form>";
 
 $count = $count +1;
 
