@@ -284,26 +284,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Project name</a>
+            <a class="brand" href="index.html">Orphan Locator</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Home</a></li>
-                <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#about">About</a></li>
-                <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#contact">Contact</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
-                <li class="dropdown">
-                  <a href="http://getbootstrap.com/2.3.2/examples/carousel.html#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Action</a></li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Another action</a></li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="nav-header">Nav header</li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Separated link</a></li>
-                    <li><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">One more separated link</a></li>
-                  </ul>
-                </li>
+                <li><a href="#about">About Us</a></li>
+
+               
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
@@ -325,7 +312,7 @@
               <h1>Orphan Locator</h1>
               <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p> 
 
-              <a class="btn btn-large btn-primary" href="home.html">Sign in</a>
+              <a class="btn btn-large btn-primary" href="new_child.html">Sign in</a>
             </div>
           </div>
         </div>
@@ -336,7 +323,7 @@
                <h1>Orphan Locator</h1>
               <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p>
 
-              <a class="btn btn-large btn-primary" href="home.html">Sign in</a>
+              <a class="btn btn-large btn-primary" href="new_child.html">Sign in</a>
             </div>
           </div>
         </div>
@@ -346,7 +333,7 @@
             <div class="carousel-caption">
   <h1>Orphan Locator</h1>
               <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p>
-       <a class="btn btn-large btn-primary" href="home.html">Sign in</a>
+       <a class="btn btn-large btn-primary" href="new_child.html">Sign in</a>
             </div>
           </div>
         </div>
@@ -362,39 +349,24 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFjUlEQVR4Xu3XSUtcaxCH8XJKHFEUERcqTuBGnFFRwa/uHCckKiGCU5aituI8G+qFFuNCrJuy7+26z1nFpLpO6l8/33O6IJPJPAsXCXwwgQLAfDApylICgAGCKQHAmO\
-KiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJAMYUF8WAwYApAcCY4qIYMBgwJQAYU1wUAwYDpgQAY4qLYsBgwJQAYExxUQwYDJgSAIwpLooBgwFTAoAxxUUxYDBgSgAwprgoBgwGTAkAxhQXxYDBgCkBwJjiohgwGDAlABhTXBQDBgOmBABjiotiwGDAlABgTHFRDBgMmBIAjCkuigGDAVMCgDHFRTFgMGBKADCmuCgGDAZMCQDGFBfFgMGAKQHAmOKiGDAYM\
-CUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJ5D2Yvb09+fXrl4yMjEhpaekfw2cyGfnx44eUl5dLX1+fFBQUyPPzs2xubsrR0VH6ua2tTZqbmz8cWq7v9+H/WI4K8xbM6empKIjd3d0U1djYmJSVlb3EpjCmpqbk4eFBvnz5IuPj41JYWCjfv3+Xw8NDKSkpSf+mdd3d3dLQ0PBu5Lm+X472b75N3oKZnp6Wu7u7l4EVxOsTZnt7W/b399O/698rqMfHR9HPKZyJiYkE\
-TgHV1NRIV1eXrK+vS1FRkfT398vFxYX8/PlTvn79Kr29vTI7O+t6v8HBQfOy/gsfyFswejroI+Xbt29yfX2dTpAsGP15bm4uPWrOzs7k6uoqAbm/v0+LLy4uTj9nAenP+vm1tTU5OTmR2tpaubm5SZ/r7OyUlpaWdBp530/h5tuVt2CyQSsYPQ1eg1ldXU1QJicnZWlpSW5vb19OFEVRV1eX3mkUgZ44+sjSEygL6unpKbWvrq6WoaGhP3bqeT8FmG9XODD6rrGysiIVFRXS1NQkOzs7ogA6Ojqkvr4+nTz6mHn9iMqeMPobry+\
-1+hm9hoeHpaqq6l0wf3s/wOQ4gbe/8cfHx+nR8vZSDHoKZR9J+mc9mfQE0m9Ro6OjCdbMzEw6efRSYD09Pe+C+Zv7ccLkGIvebmFhQS4vL18eSbr07MuwIlleXk4A9LTQd5z5+fn0btLY2Cjn5+cJTXt7u7S2tsrGxoYcHBxIZWVlqtFeb79Bed7vX4jrr2+Z948kPSH0feXtt6TX7zgKRh9B+hutuBYXFxOG7HvKwMBAwqO4tEZfiBXO1tbWywuyfnvSy+t++fjCq/PnPZh/8iujWPQE0UtPk8++cn2/z5znfwnmMwON3hsw0T\
-fsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3\
-g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3u43z049tXeoahsAAAAASUVORK5CYII=">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="upload.png">
+
           <h2>Upload.</h2>
           <p>Simply upload a picture and metadata of the missing child in our available form. </p>
 
           <p><a class="btn" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">View details »</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFjUlEQVR4Xu3XSUtcaxCH8XJKHFEUERcqTuBGnFFRwa/uHCckKiGCU5aituI8G+qFFuNCrJuy7+26z1nFpLpO6l8/33O6IJPJPAsXCXwwgQLAfDApylICgAGCKQHAmO\
-KiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJAMYUF8WAwYApAcCY4qIYMBgwJQAYU1wUAwYDpgQAY4qLYsBgwJQAYExxUQwYDJgSAIwpLooBgwFTAoAxxUUxYDBgSgAwprgoBgwGTAkAxhQXxYDBgCkBwJjiohgwGDAlABhTXBQDBgOmBABjiotiwGDAlABgTHFRDBgMmBIAjCkuigGDAVMCgDHFRTFgMGBKADCmuCgGDAZMCQDGFBfFgMGAKQHAmOKiGDAYM\
-CUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJ5D2Yvb09+fXrl4yMjEhpaekfw2cyGfnx44eUl5dLX1+fFBQUyPPzs2xubsrR0VH6ua2tTZqbmz8cWq7v9+H/WI4K8xbM6empKIjd3d0U1djYmJSVlb3EpjCmpqbk4eFBvnz5IuPj41JYWCjfv3+Xw8NDKSkpSf+mdd3d3dLQ0PBu5Lm+X472b75N3oKZnp6Wu7u7l4EVxOsTZnt7W/b399O/698rqMfHR9HPKZyJiYkE\
-TgHV1NRIV1eXrK+vS1FRkfT398vFxYX8/PlTvn79Kr29vTI7O+t6v8HBQfOy/gsfyFswejroI+Xbt29yfX2dTpAsGP15bm4uPWrOzs7k6uoqAbm/v0+LLy4uTj9nAenP+vm1tTU5OTmR2tpaubm5SZ/r7OyUlpaWdBp530/h5tuVt2CyQSsYPQ1eg1ldXU1QJicnZWlpSW5vb19OFEVRV1eX3mkUgZ44+sjSEygL6unpKbWvrq6WoaGhP3bqeT8FmG9XODD6rrGysiIVFRXS1NQkOzs7ogA6Ojqkvr4+nTz6mHn9iMqeMPobry+\
-1+hm9hoeHpaqq6l0wf3s/wOQ4gbe/8cfHx+nR8vZSDHoKZR9J+mc9mfQE0m9Ro6OjCdbMzEw6efRSYD09Pe+C+Zv7ccLkGIvebmFhQS4vL18eSbr07MuwIlleXk4A9LTQd5z5+fn0btLY2Cjn5+cJTXt7u7S2tsrGxoYcHBxIZWVlqtFeb79Bed7vX4jrr2+Z948kPSH0feXtt6TX7zgKRh9B+hutuBYXFxOG7HvKwMBAwqO4tEZfiBXO1tbWywuyfnvSy+t++fjCq/PnPZh/8iujWPQE0UtPk8++cn2/z5znfwnmMwON3hsw0T\
-fsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3\
-g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3u43z049tXeoahsAAAAASUVORK5CYII=">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="face.jpeg">
+
           <h2>Match.</h2>
           <p>We compare the metadata and images against our database and use fuzzy matching and facial recognition technology to find the location of the missing child.</p>
 
           <p><a class="btn" href="http://getbootstrap.com/2.3.2/examples/carousel.html#">View details »</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFjUlEQVR4Xu3XSUtcaxCH8XJKHFEUERcqTuBGnFFRwa/uHCckKiGCU5aituI8G+qFFuNCrJuy7+26z1nFpLpO6l8/33O6IJPJPAsXCXwwgQLAfDApylICgAGCKQHAmO\
-KiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJAMYUF8WAwYApAcCY4qIYMBgwJQAYU1wUAwYDpgQAY4qLYsBgwJQAYExxUQwYDJgSAIwpLooBgwFTAoAxxUUxYDBgSgAwprgoBgwGTAkAxhQXxYDBgCkBwJjiohgwGDAlABhTXBQDBgOmBABjiotiwGDAlABgTHFRDBgMmBIAjCkuigGDAVMCgDHFRTFgMGBKADCmuCgGDAZMCQDGFBfFgMGAKQHAmOKiGDAYM\
-CUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJ5D2Yvb09+fXrl4yMjEhpaekfw2cyGfnx44eUl5dLX1+fFBQUyPPzs2xubsrR0VH6ua2tTZqbmz8cWq7v9+H/WI4K8xbM6empKIjd3d0U1djYmJSVlb3EpjCmpqbk4eFBvnz5IuPj41JYWCjfv3+Xw8NDKSkpSf+mdd3d3dLQ0PBu5Lm+X472b75N3oKZnp6Wu7u7l4EVxOsTZnt7W/b399O/698rqMfHR9HPKZyJiYkE\
-TgHV1NRIV1eXrK+vS1FRkfT398vFxYX8/PlTvn79Kr29vTI7O+t6v8HBQfOy/gsfyFswejroI+Xbt29yfX2dTpAsGP15bm4uPWrOzs7k6uoqAbm/v0+LLy4uTj9nAenP+vm1tTU5OTmR2tpaubm5SZ/r7OyUlpaWdBp530/h5tuVt2CyQSsYPQ1eg1ldXU1QJicnZWlpSW5vb19OFEVRV1eX3mkUgZ44+sjSEygL6unpKbWvrq6WoaGhP3bqeT8FmG9XODD6rrGysiIVFRXS1NQkOzs7ogA6Ojqkvr4+nTz6mHn9iMqeMPobry+\
-1+hm9hoeHpaqq6l0wf3s/wOQ4gbe/8cfHx+nR8vZSDHoKZR9J+mc9mfQE0m9Ro6OjCdbMzEw6efRSYD09Pe+C+Zv7ccLkGIvebmFhQS4vL18eSbr07MuwIlleXk4A9LTQd5z5+fn0btLY2Cjn5+cJTXt7u7S2tsrGxoYcHBxIZWVlqtFeb79Bed7vX4jrr2+Z948kPSH0feXtt6TX7zgKRh9B+hutuBYXFxOG7HvKwMBAwqO4tEZfiBXO1tbWywuyfnvSy+t++fjCq/PnPZh/8iujWPQE0UtPk8++cn2/z5znfwnmMwON3hsw0T\
-fsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3\
-g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3u43z049tXeoahsAAAAASUVORK5CYII=">
+          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="contact.png">
+
           <h2>Contact.</h2>
           <p>We provide the contact information of the appropriate authorities in the case that our system helps find a missing child.</p>
 
