@@ -1,3 +1,4 @@
+<pre>
 <?php 
 $first_name="";
 $last_name="";
@@ -53,3 +54,4 @@ echo $location."\n";
 echo $additional_information."\n";
 
 ?>
+</pre>
