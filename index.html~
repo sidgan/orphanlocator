@@ -288,7 +288,7 @@
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="#about">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
 
                
               </ul>
