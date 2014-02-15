@@ -319,6 +319,9 @@
                
               </ul>
 
+<form method="post" action="logout.php" class="navbar-form pull-right">
+                           <button type="submit" class="btn">Log out</button>
+            </form>
 
 
             </div><!--/.nav-collapse -->
