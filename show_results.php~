@@ -336,7 +336,7 @@ $count = 0;
 print "<li class='span3'>
  <div class='thumbnail'>
  
-           <img src='" . $url . "'  height='200' width='200'>
+           <img src='" . $url . "'  height='200'>
             <div class='caption'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
               <p> Birth date: " . $birthyear . "</p>
