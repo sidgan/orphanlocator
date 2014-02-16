@@ -338,6 +338,9 @@ print "<li class='span3'>
             <img src='" . $url . "' alt='' height='200' width='200'>
             <div class='caption'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
+              <p> Birth date: " . $birthyear . "</p>
+              <p> Location: " . $location . "</p>
+              <p> Gender: " . $gender . "</p>
               <p> Missing since: " . $yearmissing . "</p>
 	      <p> <font color='red'>Match: " . $prob . "</font></p>
               <p> <a href='contact.html'><button class='btn btn-danger' type='submit'>Contact</a></p>
