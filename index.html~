@@ -312,7 +312,7 @@
               <h1>Orphan Locator</h1>
               <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p> 
 
-              <a class="btn btn-large btn-primary" href="user_form.html">Sign in</a>
+              <a class="btn btn-large btn-primary" href="user_form.html">Locate</a>
             </div>
           </div>
         </div>
@@ -377,8 +377,8 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Back to top</a></p>
-        <p>© 2014 Built at International Hackathon for Social Good in the Arab World <a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Privacy</a> · <a href="http://getbootstrap.com/2.3.2/examples/carousel.html#">Terms</a></p>
+
+        <p>© 2014 Built at International Hackathon for Social Good in the Arab World </p>
       </footer>
 
     </div><!-- /.container -->
