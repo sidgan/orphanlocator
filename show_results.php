@@ -334,7 +334,7 @@ print "<center><table>";
      $prob = $match["match_probability"];
 
  
-    if	($count	% 4 == 0){
+    if	($count	% 3 == 0){
      print "<tr>";
 }
 print "<td>";
@@ -357,7 +357,7 @@ print "<li class='span3'>
 </li>";
 
  print "</td>";
-  if  ($count % 3 == 0){
+  if  ($count % 3 == 2){
      print "</tr>";
 }
 
