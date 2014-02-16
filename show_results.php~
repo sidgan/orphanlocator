@@ -313,7 +313,7 @@ print "<html> <script src='js/jquery-1.10.2.js'></script><script src='js/jquery-
 
 <br><br><br><br><br>";
 
-$file = $_POST["picture"];
+$file = $_POST["file"];
 print $file;
      if (strcmp($file,"sam_facebook.jpg")==0){
     $data = file_get_contents ('res.json');
