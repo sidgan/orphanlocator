@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
  <script src="js/jquery-1.10.2.js"></script>
@@ -345,7 +344,7 @@
       
       <div class="page-header">
 
-<form class="form-signup2" method="post" action="formoutput2.php">
+<form class="form-signup2" method="get" action="formoutput2.php">
 <br>
 
         <h2 class="lead"><b>Enter information about missing child below:</b></h2>
