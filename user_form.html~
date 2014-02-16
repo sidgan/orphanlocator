@@ -352,17 +352,17 @@
 <table cellpadding="5">
 <tr>
 
-</td></tr><tr> <td>       <h4>First Name: </td><td><input type="text" name="first_name" class="span-2" placeholder="First name"></h4>
-</td></tr><tr><td>      <h4>Last Name:  </td><td><input type="text" name="last_name" class="span-2"  placeholder="Last name"></h4>
-</td></tr><tr><td>      <h4>Height: </td><td><input type="text" name="myusername" class="span-2" placeholder="Height"></h4>
-</td></tr><tr><td>      <h4>Gender: </td><td>
+</td></tr><tr> <td> <h4>First Name: </td><td><input type="text" name="first_name" class="span-2" placeholder="First Name"></h4>
+</td></tr><tr><td>  <h4>Last Name:  </td><td><input type="text" name="last_name" class="span-2"  placeholder="Last Name"></h4>
+
+</td></tr><tr><td>  <h4>Gender: </td><td>
 
 <input type="radio" name="gender" value="Female"> Female   
-<input type="radio" name="gender" value="Male" checked> Male<br>
+<input type="radio" name="gender" value="Male"> Male<br>
 </h4>
 </td></tr>
 
-<tr><td>      <h4>Upload Picture: </td><td><input type="file" id="picture" name="file" multiple accept='image/*'></h4>
+<tr><td><h4>Upload Picture:</td><td><input type="file" id="picture" name="file" multiple accept='image/*'></h4>
 </td></tr>
 
 <tr><td>
