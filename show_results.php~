@@ -333,13 +333,13 @@ print "<center><table>";
      $url = $match["photo_url"];
      $prob = $match["match_probability"];
 
-print "<li class='span3'>
- <div class='thumbnail'>
  
     if	($count	% 3 == 0){
      print "<tr>";
 }
 print "<td>";
+print "<li class='span3'>
+ <div class='thumbnail'>
            <img src='" . $url . "'  height='150' width='150'>
             <div class='caption'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
