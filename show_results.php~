@@ -314,7 +314,7 @@ print "<html> <script src='js/jquery-1.10.2.js'></script><script src='js/jquery-
 <br><br><br><br><br>";
 
 
-    $data = file_get_contents ('res.json');
+    $data = file_get_contents ('test.json');
     $json = json_decode($data, true);
     
 $count = 0;
