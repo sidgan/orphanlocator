@@ -345,7 +345,7 @@
       
       <div class="page-header">
 
-<form class="form-signup2" method="post" action="out.php">
+<form class="form-signup2" method="post" action="formoutput.php">
 <br>
 
         <h2 class="lead"><b>Enter information about missing child below:</b></h2>
