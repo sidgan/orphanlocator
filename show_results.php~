@@ -321,7 +321,7 @@ $count = 0;
 
 
      foreach ($json["Value"] as $match){
-
+     
      $firstname =  $match["first_name"];
      $lastname = $match["last_name"];
      $birthyear = $match["year_birth"];
@@ -336,7 +336,7 @@ $count = 0;
 print "<li class='span3'>
  <div class='thumbnail'>
  
-           <img src='" . $url . "'  height='200'>
+           <img src='" . $url . "'  height='100' width='100'>
             <div class='caption'>
               <h5>" . $firstname . " " . $lastname .  "</h5>
               <p> Birth date: " . $birthyear . "</p>
