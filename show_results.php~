@@ -338,6 +338,7 @@ print "<center><table>";
      print "<tr>";
 }
 print "<td>";
+
 print "<li class='span3'>
  <div class='thumbnail'>
            <img src='" . $url . "'  height='150' width='150'>
@@ -349,18 +350,25 @@ print "<li class='span3'>
               <p> Missing since: " . $yearmissing . "</p>
 	      <p> <font color='red'>Match: " . $prob . "</font></p>
               <p> <a href='contact.html'><button class='btn btn-danger' type='submit'>Contact</a></p>
+ 
+
+ </div>
+          </div>
+</li>";
+
  print "</td>";
   if  ($count % 3 == 0){
      print "</tr>";
-}         
+}
+
 $count = $count + 1;
- </div>
-          </div>
-</li></table><center>";
+
 
 
 
 }
+print "</table></center>";
+
 
 
 
