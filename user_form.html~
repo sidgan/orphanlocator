@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<!-- saved from url=(0052)http://getbootstrap.com/2.3.2/examples/carousel.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+ <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/jquery-ui-1.10.4.custom.js"></script>
+        <script>
+
+        $(function() {
+                $( "#datepicker,#datepicker2" ).datepicker({
+                        inline: true
+                });
+
+                // Hover states on the static widgets
+                $( "#dialog-link, #icons li" ).hover(
+                        function() {
+                                $( this ).addClass( "ui-state-hover" );
+                        },
+                        function() {
+                                $( this ).removeClass( "ui-state-hover" );
+                        }
+                );
+        });
+        </script>
+
+
+<head>
     <meta charset="utf-8">
-    <title>ResearchIQ</title>
+    <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-   
+
     <!-- Le styles -->
-    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <style>
 
     /* GLOBAL STYLES
@@ -255,16 +278,16 @@
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+      <script src="bootstrap/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="http://getbootstrap.com/2.3.2/assets/ico/favicon.png">
-  <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
 
   <body>
 
@@ -284,16 +307,19 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-
-            <a class="brand" href="index.html">ResearchIQ</a>
-
+            <a class="brand" href="index.html">Orphan Locator</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="about.html">About Us</a></li>
 
+                <li><a href="about.html">About Us</a></li>
+              
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                
               </ul>
+
+
+
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
@@ -303,105 +329,57 @@
 
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="syria1.jpg" alt="">
-          <div class="container">
-<<<<<<< HEAD
- <div class="carousel-caption">
-
-              <h1>ResearchIQ</h1>
-              <p class="lead">ResearchIQ is a tool that tells you the impact of your research in the academic, social media, and traditional media spheres.</p>
 
 
-<form class="form-signin" method="post" action="home.html">
-<br>
-        <h2 class="lead"><b>Sign in below:</b></h2>
-        <input type="text" name="myusername" class="input-block-level" placeholder="Username">
-        <input type="password" name ="mypassword" class="input-block-level" placeholder="Password">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> <font color="black">Remember me</font>
-        </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-      </form>
 
-</div>
-=======
-            <div class="carousel-caption">
-              <h1>Orphan Locator</h1>
-              <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p> 
-
-              <a class="btn btn-large btn-primary" href="user_form.html">Sign in</a>
-            </div>
->>>>>>> 623070c6c0f6f1da4b4b0d1e4ac8852900d695fb
-          </div>
-        </div>
-        <div class="item">
-          <img src="syria2.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-               <h1>Orphan Locator</h1>
-              <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p>
-
-              <a class="btn btn-large btn-primary" href="user_form.html">Sign in</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="syria3.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-  <h1>Orphan Locator</h1>
-              <p class="lead">Lost Child Locator is a match system using face recognition and other metadata to find matches between Orphanages/Refugee camps and Government/Police databases where parents report missing children. </p>
-       <a class="btn btn-large btn-primary" href="user_form.html">Sign in</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="http://getbootstrap.com/2.3.2/examples/carousel.html#myCarousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="http://getbootstrap.com/2.3.2/examples/carousel.html#myCarousel" data-slide="next">›</a>
-    </div><!-- /.carousel -->
+<div class="container" id="content">
 
     
 
-    <div class="container marketing">
+      
+      
+      
+<br><br><br><br>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="upload.png">
+      
+      <div class="page-header">
 
-          <h2>Upload.</h2>
-          <p>Simply upload a picture and metadata of the missing child in our available form. </p>
+<form class="form-signup2" method="get" action="formoutput2.php">
+<br>
 
+        <h2 class="lead"><b>Enter information about missing child below:</b></h2>
+<table cellpadding="5">
+<tr>
 
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="face.jpeg">
+</td></tr><tr> <td> <h4>First Name: </td><td><input type="text" name="first_name" class="span-2" placeholder="First Name"></h4>
+</td></tr><tr><td>  <h4>Last Name:  </td><td><input type="text" name="last_name" class="span-2"  placeholder="Last Name"></h4>
 
-          <h2>Match.</h2>
-          <p>We compare the metadata and images against our database and use fuzzy matching and facial recognition technology to find the location of the missing child.</p>
+</td></tr><tr><td>  <h4>Gender: </td><td>
 
+<input type="radio" name="gender" value="Female"> Female   
+<input type="radio" name="gender" value="Male"> Male<br>
+</h4>
+</td></tr>
 
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="contact.png">
+<tr><td><h4>Upload Picture:</td><td><input type="file" id="picture" name="file" multiple accept='image/*'></h4>
+</td></tr>
 
-          <h2>Contact.</h2>
-          <p>We provide the contact information of the appropriate authorities in the case that our system helps find a missing child.</p>
+<tr><td>
+<h4> Birth Date </td><td><input type="text" name="year_birth" id="datepicker" />
 
+</h4></td></tr>
+<tr><td>
+<h4> Date Missing </td><td><input type="text" name="year_missing" id="datepicker2" /></h4></td></tr>
+</table>
+        <button class="btn btn-large btn-primary" Value="submit" id="submit" type="submit">Submit</button>
+      </form>
 
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
-<hr class="featurette-divider">
+</div>
+ 
 
       <!-- FOOTER -->
       <footer>
 
-        <p>© 2014 Built at International Hackathon for Social Good in the Arab World </p>
       </footer>
 
     </div><!-- /.container -->
@@ -411,19 +389,19 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./carousel_files/jquery.js"></script>
-    <script src="./carousel_files/bootstrap-transition.js"></script>
-    <script src="./carousel_files/bootstrap-alert.js"></script>
-    <script src="./carousel_files/bootstrap-modal.js"></script>
-    <script src="./carousel_files/bootstrap-dropdown.js"></script>
-    <script src="./carousel_files/bootstrap-scrollspy.js"></script>
-    <script src="./carousel_files/bootstrap-tab.js"></script>
-    <script src="./carousel_files/bootstrap-tooltip.js"></script>
-    <script src="./carousel_files/bootstrap-popover.js"></script>
-    <script src="./carousel_files/bootstrap-button.js"></script>
-    <script src="./carousel_files/bootstrap-collapse.js"></script>
-    <script src="./carousel_files/bootstrap-carousel.js"></script>
-    <script src="./carousel_files/bootstrap-typeahead.js"></script>
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap-transition.js"></script>
+    <script src="bootstrap/js/bootstrap-alert.js"></script>
+    <script src="bootstra[/js/bootstrap-modal.js"></script>
+    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/js/bootstrap-tab.js"></script>
+    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/js/bootstrap-popover.js"></script>
+    <script src="bootstrap/js/bootstrap-button.js"></script>
+    <script src="bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
     <script>
       !function ($) {
         $(function(){
@@ -432,7 +410,7 @@
         })
       }(window.jQuery)
     </script>
-    <script src="./carousel_files/holder.js"></script>
-  
+    <script src="../assets/js/holder/holder.js"></script>
 
-</body></html>
+</body>
+</html>

@@ -1,12 +1,3 @@
-<?php
-session_start();
-if(!session_is_registered(myusername)){
-header("location:index.html");
-}
-$name = $_SESSION["myfirstname"];
-?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
